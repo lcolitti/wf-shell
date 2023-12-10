@@ -85,6 +85,8 @@ class WayfireWindowList : public WayfireWidget
     void set_button_width(int width);
     int get_default_button_width();
     int get_target_button_width();
+
+    int last_button_width = 0;
 };
 
 #endif /* end of include guard: WIDGETS_WINDOW_LIST_HPP */
